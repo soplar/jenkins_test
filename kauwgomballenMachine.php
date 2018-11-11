@@ -14,7 +14,7 @@
 
         // de gebruiker draait aan de machine en een kauwgombal valt er uit
         public function draaiMachine(){
-            $this->setKauwgomballen($this->getKauwgomballen() - 1);
+            $this->setKauwgomballen($this->getKauwgomballen() - 2);
         }
     }
 ?>
