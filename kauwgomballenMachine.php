@@ -4,12 +4,12 @@
 
         // get aantal kauwgomballen in de machine
         public function getKauwgomballen(){
-            return $this->$kauwgomballen;
+            return $this->kauwgomballen;
         }
 
         // set het aantal kauwgomballen in de machine
         public function setKauwgomballen($aantal){
-            $this->$kauwgomballen = $aantal;
+            $this->kauwgomballen = $aantal;
         }
 
         // de gebruiker draait aan de machine en een kauwgombal valt er uit

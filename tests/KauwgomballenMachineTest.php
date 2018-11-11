@@ -1,7 +1,8 @@
 <?php
     require "KauwgomballenMachine.php";
+    use PHPUnit\Framework\TestCase;
 
-    class KauwgomballenMachineTest extends PHPUnit_Framework_Testcase{
+    class KauwgomballenMachineTest extends TestCase{
         public $kauwgomballenMachineInstantie;
         
         public function setUp(){
@@ -14,7 +15,7 @@
             // een gebruiker haalt er eentje uit
             $this->kauwgomballenMachineInstantie->draaiMachine();
             // nu zouden er dus 99 in moeten zitten
-            $this->assertEquas(99, $this->kauwgomballenMachineInstantie->getKauwgomballen());
+            $this->assertEquals(99, $this->kauwgomballenMachineInstantie->getKauwgomballen());
         }
     }
 ?>
