@@ -1,7 +1,7 @@
 eerst composer.json aanmaken
 dan composer update
 dan testen met: vendor/bin/phpunit tests
-
+maak het er een git koppeling van (in jenkins en in git)
 
 login op jenkins (console):
 sudo apt-get install phpunit
